@@ -3,18 +3,39 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>slides4j</artifactId>
-		<groupId>be.gc.slides4j</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<groupId>be.gallifreyan.slides4j</groupId>
+		<version>0.1</version>
 	</parent>
-	<groupId>be.gc.slides4j</groupId>
+	<groupId>be.gallifreyan.slides4j</groupId>
 	<artifactId>slides4j-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<name>slides4j-api</name>
+	<version>0.1</version>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.github.spullara.mustache.java</groupId>
 			<artifactId>compiler</artifactId>
 			<version>${mustache.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-servlet_3.0_spec</artifactId>
+			<version>${servlet.3.0.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
 		</dependency>
 	</dependencies>
 </project>

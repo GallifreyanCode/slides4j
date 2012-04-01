@@ -1,4 +1,4 @@
-package be.gc.slides4j.slide.element;
+package be.gallifreyan.slides4j.api.element;
 
 import java.util.ArrayList;
 import java.util.List;

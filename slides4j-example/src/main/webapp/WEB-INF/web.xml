@@ -5,7 +5,7 @@
 	<servlet>
 		<display-name>slides4j</display-name>
 		<servlet-name>slides4j</servlet-name>
-		<servlet-class>be.gc.slides4j.example.ServletBasicPage</servlet-class>
+		<servlet-class>be.gallifreyan.slides4j.example.ExampleSlideShowPage</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>slides4j</servlet-name>

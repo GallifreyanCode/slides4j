@@ -1,15 +1,15 @@
 {{#slideShow}}
 <article id="{{name}}" class="{{style}}" data-x="{{x}}" data-y="{{y}}" {{#hasScale}}data-scale="{{scale}}"{{/hasScale}}>
-	{{#rootItems}}
+	{{#items}}
 	<ul>
 		<h2>{{text}}</h2>
 		{{#subItems}}
 			<li>{{text}}</li>
 		{{/subItems}}
 	</ul>
-	{{/rootItems}}
-	{{^rootItems}}
+	{{/items}}
+	{{^items}}
 		<h1>{{title}}</h1>
-	{{/rootItems}}
+	{{/items}}
 </article>
 {{/slideShow}}

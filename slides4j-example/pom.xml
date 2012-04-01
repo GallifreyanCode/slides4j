@@ -3,33 +3,39 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>slides4j</artifactId>
-		<groupId>be.gc.slides4j</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<groupId>be.gallifreyan.slides4j</groupId>
+		<version>0.1</version>
 	</parent>
-	<groupId>be.gc.slides4j</groupId>
+	<groupId>be.gallifreyan.slides4j</groupId>
 	<artifactId>slides4j-example</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1</version>
+	<name>slides4j-example</name>
 	<packaging>war</packaging>
 
 	<properties>
 		<jetty.port>9773</jetty.port>
-		<itext.version>5.2.0</itext.version>
-		<servlet.3.0.version>1.0</servlet.3.0.version>
+		<junit.version>4.10</junit.version>
 		<jetty.plugin.version>8.1.1.v20120215</jetty.plugin.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-				<groupId>be.gc.slides4j</groupId>
-				<artifactId>slides4j-api</artifactId>
+			<groupId>be.gallifreyan.slides4j</groupId>
+			<artifactId>slides4j-api</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.geronimo.specs</groupId>
 			<artifactId>geronimo-servlet_3.0_spec</artifactId>
 			<version>${servlet.3.0.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
-	
+
 	<!-- jetty:run-war -->
 	<build>
 		<plugins>

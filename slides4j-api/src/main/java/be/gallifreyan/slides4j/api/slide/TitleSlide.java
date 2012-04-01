@@ -1,6 +1,9 @@
-package be.gc.slides4j.slide;
+package be.gallifreyan.slides4j.api.slide;
 
-import be.gc.slides4j.api.Slide;
+import java.util.List;
+
+import be.gallifreyan.slides4j.api.Slide;
+import be.gallifreyan.slides4j.api.element.RootItem;
 
 public class TitleSlide implements Slide {
 	public String name;
@@ -25,5 +28,9 @@ public class TitleSlide implements Slide {
 	
 	public static TitleSlide constructWithScale(String name, int x, int y, int scale) {
 		return new TitleSlide(name, x, y, scale);
+	}
+
+	public List<RootItem> items() {
+		return null;
 	}
 }
