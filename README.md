@@ -1,13 +1,20 @@
 ## Slides4j ##
 
-Create interactive slideshows with Java. Powered by impress.js and mustache.java.
+Create interactive slideshows with Java. Powered by impress.js and mustache.java. This is just an experiment.
 
 ### Build ###
 
-Run mvn clean install on parent.
+Slides4j is built with Maven.
+
+    mvn clean install
+    
+It will generate the API JAR and example WAR.
 
 ### Run example ###
 
-Execute mvn jetty:run-war on the example to start the slideshow.
-Default url is localhost:9773/slideshow
-Port can be changed by changing the jetty.port property in the pom.
+Navigate to the location of the example and execute the following command to start the it on a local server.
+
+    mvn jetty:run-war
+    
+The default URL is [localhost:9773/slideshow](localhost:9773/slideshow).
+The port can be changed in its pom.xml, change the jetty.port property to whatever port you like. The rest of the URL can be found in the web.xml.
