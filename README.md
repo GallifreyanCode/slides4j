@@ -20,3 +20,6 @@ Navigate to the location of the example and execute the following command to sta
     
 The default URL is [localhost:9773/slideshow](localhost:9773/slideshow).
 The port can be changed in its pom.xml, change the jetty.port property to whatever port you like. The rest of the URL can be found in the web.xml.
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
