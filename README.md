@@ -1,8 +1,8 @@
-## Slides4j ##
+## Slides4j
 
 Create interactive slideshows with Java. Powered by impress.js and mustache.java. This is just a fun experiment.
 
-### Build ###
+### Build
 
 Slides4j is built with Maven.
 
@@ -10,7 +10,7 @@ Slides4j is built with Maven.
     
 It will generate the API JAR and example WAR.
 
-### Run example ###
+### Run example
 This example just shows of the cool stuff you can do when using Java for this. It's a WAR which has the generated slideshow inside and its configured with an embedded jetty server.
 To make this process easier, there's a template within the API that does the heavy lifting for building the webpage.
 
